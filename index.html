@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wertewerk | Wir schaffen Bewusstsein. Und bewegen Veränderung.</title>
+  <meta name="description" content="Wertewerk verbindet kreatives Marketing mit gesellschaftlicher Verantwortung – für Marken, die Haltung zeigen und nachhaltig etwas bewegen wollen." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <!-- ============================================================
+       HEADER — Navbar (from Paper wireframe)
+       ============================================================ -->
+  <header class="header" data-header>
+    <a href="#top" class="header__logo" data-logo aria-label="Wertewerk – nach oben">
+      <img src="assets/logo.svg" alt="Wertewerk Agentur" class="header__logo-img" />
+    </a>
+
+    <nav class="header__nav" aria-label="Hauptnavigation">
+      <div class="header__links">
+        <a href="#team" class="header__link" data-roll-link><span data-text="Team">Team</span></a>
+        <a href="#about" class="header__link" data-roll-link><span data-text="Über uns">Über uns</span></a>
+      </div>
+      <a href="#contact" class="header__cta">
+        <span>Kontakt</span>
+        <svg width="10" height="10" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M0.262 1.787L13.669 12.243L13.707 1.709H15.223V15.923H2.205V14.567L12.308 13.947L0.262 1.787Z" fill="currentColor" />
+        </svg>
+      </a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="top" data-hero>
+      <div class="hero__trail" data-hero-trail aria-hidden="true"></div>
+
+      <div class="hero__content">
+        <h1 class="hero__heading">
+          <span class="line"><span class="line__inner">Wir schaffen Bewusstsein.</span></span>
+          <span class="line"><span class="line__inner">Und bewegen Veränderung.</span></span>
+        </h1>
+      </div>
+
+      <div class="hero__footer">
+        <a href="#about" class="hero__scroll-cta" data-magnetic aria-label="Weiter zum Inhalt scrollen">
+          <span>Mehr erfahren</span>
+          <span class="hero__scroll-cta-icon" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 2v11.5M3.5 9.5 8 14l4.5-4.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square" />
+            </svg>
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ========== INTRO / ABOUT ========== -->
+    <section class="intro" id="about">
+      <div class="intro__inner">
+        <div class="intro__meta" data-reveal>
+          <p class="intro__label">
+            <span class="intro__dot" aria-hidden="true"></span>
+            <span>Wertewerk</span>
+          </p>
+          <a href="#team" class="intro__claim">
+            <span>Entdecke das Team</span>
+            <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M0.262 1.787L13.669 12.243L13.707 1.709H15.223V15.923H2.205V14.567L12.308 13.947L0.262 1.787Z" fill="currentColor" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="intro__body">
+          <p class="intro__text" data-word-reveal>
+            Wir verbinden kreatives Marketing mit gesellschaftlicher Verantwortung. Für Marken, die Haltung zeigen, Menschen erreichen und nachhaltig etwas bewegen wollen.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TEAM — pinned horizontal scroll ========== -->
+    <section class="team" id="team" aria-labelledby="team-title" data-team>
+      <div class="team__viewport">
+        <div class="team__track" data-team-track>
+
+          <!-- Panel 0: intro with floating images -->
+          <div class="team__panel team__panel--intro" data-team-intro>
+            <h2 class="team__title" id="team-title">Entdecke unser Team</h2>
+            <p class="team__hint" aria-hidden="true">
+              <span>Scroll</span>
+              <span class="team__hint-line"></span>
+            </p>
+          </div>
+
+          <!-- Panel 1 -->
+          <div class="team__panel team__group" data-group="0">
+            <div class="team__group-text">
+              <span class="team__group-index">01</span>
+              <h3 class="team__group-title">Creative Direction</h3>
+              <p class="team__group-desc">Verantwortlich für die kreative Konzeption, Webdesign, Fotografie und die Entwicklung visueller Markenauftritte sowie die Gestaltung und Umsetzung kreativer Marketingkampagnen.</p>
+            </div>
+            <ul class="team__members">
+              <li class="member"><div class="member__slot" data-slot="0"><span class="member__photo" style="--card:var(--c-orange)"><img src="assets/Team%20Images/Emmanuel.jpeg" alt="Emmanuel" loading="lazy" /></span></div><span class="member__name">Emmanuel</span></li>
+              <li class="member"><div class="member__slot" data-slot="1"><span class="member__photo" style="--card:var(--c-blue)"><img src="assets/Team%20Images/Sophie.jpeg" alt="Sophia" loading="lazy" /></span></div><span class="member__name">Sophia</span></li>
+            </ul>
+          </div>
+
+          <!-- Panel 2 -->
+          <div class="team__panel team__group" data-group="1">
+            <div class="team__group-text">
+              <span class="team__group-index">02</span>
+              <h3 class="team__group-title">Strategy &amp; Project Management</h3>
+              <p class="team__group-desc">Zuständig für Markt- und Zielgruppenanalysen, strategische Recherche, die Entwicklung von Kommunikationskonzepten sowie die Planung und Koordination von Projekten.</p>
+            </div>
+            <ul class="team__members">
+              <li class="member"><div class="member__slot" data-slot="2"><span class="member__photo" style="--card:var(--c-brown)"><img src="assets/Team%20Images/Eszter.jpeg" alt="Eszter" loading="lazy" /></span></div><span class="member__name">Eszter</span></li>
+              <li class="member"><div class="member__slot" data-slot="3"><span class="member__photo" style="--card:var(--c-lightblue)"><img src="assets/Team%20Images/Lea.jpeg" alt="Lea" loading="lazy" /></span></div><span class="member__name">Lea</span></li>
+            </ul>
+          </div>
+
+          <!-- Panel 3 -->
+          <div class="team__panel team__group" data-group="2">
+            <div class="team__group-text">
+              <span class="team__group-index">03</span>
+              <h3 class="team__group-title">Editorial Management</h3>
+              <p class="team__group-desc">Verantwortlich für die Erstellung und Redaktion von Texten, Blogbeiträgen und weiteren Inhalten sowie die Organisation, Dokumentation und redaktionelle Begleitung von Projekten.</p>
+            </div>
+            <ul class="team__members">
+              <li class="member"><div class="member__slot" data-slot="4"><span class="member__photo" style="--card:var(--c-darkbrown)"><img src="assets/Team%20Images/Nana.jpeg" alt="Nana" loading="lazy" /></span></div><span class="member__name">Nana</span></li>
+              <li class="member"><div class="member__slot" data-slot="5"><span class="member__photo" style="--card:var(--c-orange)"><img src="assets/Team%20Images/Leah.jpeg" alt="Leah" loading="lazy" /></span></div><span class="member__name">Leah</span></li>
+            </ul>
+          </div>
+
+          <!-- Panel 4 -->
+          <div class="team__panel team__group team__group--wide" data-group="3">
+            <div class="team__group-text">
+              <span class="team__group-index">04</span>
+              <h3 class="team__group-title">Visual Design &amp; Social Content</h3>
+              <p class="team__group-desc">Verantwortlich für die kreative Gestaltung visueller Inhalte, Grafikdesign und die Entwicklung ansprechender Designs und Content-Formate für Social Media.</p>
+            </div>
+            <ul class="team__members">
+              <li class="member"><div class="member__slot" data-slot="6"><span class="member__photo" style="--card:var(--c-blue)"><img src="assets/Team%20Images/Marika.jpeg" alt="Marika" loading="lazy" /></span></div><span class="member__name">Marika</span></li>
+              <li class="member"><div class="member__slot" data-slot="7"><span class="member__photo" style="--card:var(--c-brown)"><img src="assets/Team%20Images/Emelie.jpeg" alt="Emelie" loading="lazy" /></span></div><span class="member__name">Emelie</span></li>
+              <li class="member"><div class="member__slot" data-slot="8"><span class="member__photo" style="--card:var(--c-lightblue)"><img src="assets/Team%20Images/Klara.jpeg" alt="Klara" loading="lazy" /></span></div><span class="member__name">Klara</span></li>
+              <li class="member"><div class="member__slot" data-slot="9"><span class="member__photo" style="--card:var(--c-darkbrown)"><img src="assets/Team%20Images/Nina.jpeg" alt="Nina" loading="lazy" /></span></div><span class="member__name">Nina</span></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Floating images layer (desktop only, built by JS from the slots above) -->
+        <div class="team__floaters" data-team-floaters aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <h2 class="contact__title" id="contact-title">
+        <span class="line"><span class="line__inner">Lass uns reden.</span></span>
+      </h2>
+      <a class="contact__email" href="mailto:hallo@wertewerk.de" data-magnetic>
+        <span class="contact__email-text">hallo@wertewerk.de</span>
+        <svg class="contact__email-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M5 3h8v8" /></svg>
+      </a>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       SCRIPTS
+       ============================================================ -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+
+  <script src="js/animations.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
